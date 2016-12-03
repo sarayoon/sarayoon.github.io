@@ -1,0 +1,27 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: url("nyc.jpg") #000 no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  padding-top:8vh;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.main {
+  color: #fff;
+  background-color: rgba(0,0,0,0.75);
+  border-radius: 6px;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+svg.social {
+  height: 30px;
+}
